@@ -9,13 +9,19 @@
             "name": "HelloGoodbye",
             "request": "launch",
             "mainClass": "HelloGoodbye",
+            "args": ["Benjamine", "Joseph"],
             "projectName": "TestProject_d01376d2"
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "sourcePaths": ["${workspaceFolder}/src"],
+            "classpath": ["${workspaceFolder}/bin"]
         },
         {
             "type": "java",
             "name": "HelloGoodby",
             "request": "launch",
             "mainClass": "HelloGoodby",
+            "args": ["James", "Judith"],
             "projectName": "TestProject_d01376d2"
         },
         {
